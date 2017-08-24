@@ -1,0 +1,8 @@
+{
+  "apiGatewayRequestTemplate": {
+    "application/json": {
+      "countryCode": "$input.params().path.get('countryCode')",
+      "vatNumber": "$input.params().path.get('vatNumber')"
+    }
+  }
+}
